@@ -4,6 +4,10 @@
     list-style-type: none;
     font-family: Arial, Helvetica, sans-serif;
 }
+:root {
+    --text-color1: #000000;
+    --text-color2: #ffffff;
+}
 body {
     background-color: #ccc;
 }
@@ -14,11 +18,17 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    color: white;
+    color: var(--text-color2);
 }
 .nav-link {
     display: flex;
     flex-direction: row;
     gap: 40px;
     padding-right: 3%;
+}
+.nav-link li a:visited {
+    color: var(--text-color2);
+}
+.nav-link li a:active {
+    color: #ccc;
 }
