@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.nav-bar {
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.nav-link {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+}
