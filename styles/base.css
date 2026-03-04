@@ -4,17 +4,21 @@
     list-style-type: none;
     font-family: Arial, Helvetica, sans-serif;
 }
+body {
+    background-color: #ccc;
+}
 /*Style the navbar*/
 .nav-bar {
     display: flex;
     padding: 10px;
     justify-content: space-between;
+    align-items: center;
     background-color: black;
     color: white;
 }
 .nav-link {
     display: flex;
     flex-direction: row;
-    gap: 10px;
-    padding: 10px;
+    gap: 40px;
+    padding-right: 3%;
 }
